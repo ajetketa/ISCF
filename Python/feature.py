@@ -1,0 +1,6 @@
+
+def mean(dataSample):
+
+
+
+
