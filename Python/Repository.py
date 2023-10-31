@@ -89,8 +89,6 @@ def get_matrix(dataSet):
     array = np.empty(shape)
 
     for (index, data) in enumerate(dataSet):
-        print(index)
-        print(data[c.innerRing])
         array[index, 0] = data[c.hp]
         array[index, 1] = padded_array(data[c.innerRing][0], maxLength)
         array[index, 2] = padded_array(data[c.innerRing][1], maxLength)
